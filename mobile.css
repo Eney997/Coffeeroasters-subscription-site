@@ -377,5 +377,102 @@
         font-weight: 400;
         line-height: 26px;
     }
+
+
+    .HowItWorksDiv {
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'ertii'
+        'orii'
+        'samii'
+        'otxii'
+        'xutii';
+        margin-top: 120px;
+        gap: 20px;
+    }
+    .HIW {
+        margin-left: 0px;
+        margin-top: 0px;
+        grid-area: ertii;
+        width: 327px;
+        color: #83888F;
+        text-align: center;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+    .circleandLine {
+        margin-left: 0px;
+        margin-top: 0px;
+        grid-area: orii;
+        display: none;
+        place-items: center;
+    }
+    .line {
+        background-image: url(/assets/p-1/lineandcircle.svg);
+        background-repeat: no-repeat;
+        width: 689px;
+        height: 622px;
+    }
+    .zeroOne {
+        margin-left: 0px;
+        grid-area: samii;
+        margin-top: 80px;
+        display: grid;
+        place-items: center;
+        width: 223px;
+        height: 371px;
+    }
+    .zeroTwo {
+        grid-area: otxii;
+        display: grid;
+        place-items: center;
+        width: 223px;
+        height: 371px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .zeroThree {
+        grid-area: xutii;
+        display: grid;
+        place-items: center;
+        width: 223px;
+        height: 371px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .zeroH1 {
+        text-align: center;
+        color: #FDD6BA;
+        font-family: Fraunces ;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px; 
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .zeroH2 {
+        text-align: center;
+        width: 223px;
+        color: #333D4B;
+        font-family: Fraunces ;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+    .zeroH3 {
+        text-align: center;
+        width: 223px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
 }
 
