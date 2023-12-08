@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap');
+* {  /*desktopi*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', 'Fraunces';
+}
+body {
+    background: #FEFCF7;
+}
+.container {
+    display: grid;
+    place-items: center;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.navbar {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 800px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.nav-link {
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; 
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+.hdc {
+    background-image: url(/assets/p-1/desk.svg);
+    width: 1280px;
+    height: 600px;
+    display: grid;
+    place-items: center;
+}
+.hdch1 {
+    color: #FEFCF7;
+    font-family: Fraunces;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; 
+    width: 500px;
+    margin-left: -600px;
+    margin-top: 100px;
+}
+.hdch2 {
+    width: 398px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: -700px;
+    margin-top: -90px;
+}
+.hdcbut {
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #0E8784;
+    margin-left: -880px;
+    margin-top: -100px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.hdcspan {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+}
+.packetBox {
+    display: grid;
+    place-items: center;
+}
+.packetBox {
+    display: grid;
+    place-items: center;
+    margin-top: 120px;
+    grid-template-areas:'erti erti erti erti erti'
+    'ori sami otxi xuti xuti';
+    row-gap: 50px;
+    margin-left: 0px;
+}
+.pbh1 {
+    grid-area: erti;
+    opacity: 0.5032;
+    width: 689px;
+    height: 118px;
+    color: #83888F;
+    text-align: center;
+    font-family: Fraunces ;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; 
+    z-index: 0;
+}
+.granEspreso {
+    z-index: 1;
+    margin-top: -120px;
+    grid-area: ori;
+    display: grid;
+    place-items: center;
+    grid-template-areas:'exvsi'
+                        'ati' 
+                        'tertmeti';
+}
+.Planto {
+    grid-area: sami;
+    display: grid;
+    place-items: center;
+    grid-template-areas:'shvidi' 
+                        'tormeti'
+                        ' cameti';
+}
+.Piccollo {
+    grid-area: otxi;
+    display: grid;
+    place-items: center;
+    grid-template-areas:'rva '
+                        'totxmeti'
+                        'txutmeti';
+}
+.Danche {
+    margin-top: -120px;
+    grid-area: xuti;
+    display: grid;
+    place-items: center;
+    grid-template-areas:'cxra'
+                        'teqvsmeti' 
+                        'chvidmeti';
+}
+.beg1 {
+    grid-area: exvsi;
+    background-image: url(/assets/p-1/packetsrc/grandespresotab.svg);
+    background-repeat: no-repeat;
+    width: 256px;
+    height: 193px;
+}
+.beg2 {
+    grid-area:shvidi ;
+    background-image: url(/assets/p-1/packetsrc/plantotap.svg);
+    background-repeat: no-repeat;
+    width: 256px;
+    height: 193px;
+}
+.beg3 {
+    grid-area: rva;
+    background-image: url(/assets/p-1/packetsrc/piccollotap.svg);
+    background-repeat: no-repeat;
+    width: 256px;
+    height: 193px;
+}
+.beg4 {
+    grid-area: cxra;
+    background-image: url(/assets/p-1/packetsrc/danchetab.svg);
+    background-repeat: no-repeat;
+    width: 256px;
+    height: 193px;
+}
+.espH1 {
+    grid-area: ati;
+    color: #333D4B;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+    margin-left: 0px;
+}
+.espH2 {
+    grid-area: tertmeti;
+    width: 282px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.plantoh1 {
+    grid-area: tormeti;
+    color: #333D4B;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+    margin-left: 0px;
+}
+.plantoh2 {
+    grid-area: cameti;
+    width: 282px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center; 
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.picoloh1 {
+    grid-area: totxmeti;
+    color: #333D4B;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+    margin-left: 0px;
+}
+.picoloh2 {
+    grid-area:txutmeti ;
+    width: 282px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.dancheh1 {
+    grid-area:teqvsmeti ;
+    color: #333D4B;
+    font-family: Fraunces ;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.dancheh2 {
+    grid-area: chvidmeti;
+    width: 282px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+
+

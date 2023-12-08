@@ -1,0 +1,271 @@
+@media (max-width:768px){ /*mobile*/
+    .navbar {
+        gap: 140px;
+    }
+    .hamburger {
+        display: block;
+        z-index: 1;
+    }
+    .headercoffe {
+        z-index: 1;
+    }
+    .nav-menu {
+        justify-content: center;
+        background-image: url(/assets/bibc.svg),url(/assets/burgerBackground.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover,auto;
+        width: 100%;
+        height: 577px;
+        position: fixed;
+        left: -100%;
+        top: 0px;
+        gap:0;
+        flex-direction: column;
+        z-index: 0;
+    }
+    .nav-item {
+       margin-top: -120px;
+    }
+    .nav-menu.active {
+        left:0;
+    }
+    .nav-link {
+        color: #333D4B;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+    .hdc{
+        background-image: url(/assets/p-1/MOb-cofferhd.svg);
+        width: 327px;
+        height: 500px;
+        margin-top: -13px;
+    }
+    .hdch1 {
+        width: 279px;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .hdch2 {
+        width: 279px;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: -85px;
+        margin-left: 0px;
+    }
+    .hdcbut {
+        width: 217px;
+        height: 56px;
+        border-radius: 6px;
+        background: #0E8784;
+        margin-top: -130px;
+        margin-left: 0px;
+    }
+    .hdcspan {
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+    }
+    .packetBox {
+        display: grid;
+        place-items: center;
+        margin-top: 120px;
+        grid-template-areas:'erti'
+                            'ori'
+                            'sami'
+                            'otxi'
+                            'xuti';
+        row-gap: 50px;
+        margin-left: 0px;
+    }
+    .pbh1 {
+        grid-area: erti;
+        opacity: 0.5032;
+        width: 375px;
+        height: 72px;
+        color: #83888F;
+        text-align: center;
+        font-family: Fraunces ;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px; 
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .granEspreso {
+        z-index: 2;
+        margin-top: 0px;
+        grid-area: ori;
+        display: grid;
+        place-items: center;
+        grid-template-areas:'exvsi'
+                            'ati'
+                            'tertmeti';
+        row-gap: 10px;
+    }
+    .Planto {
+        margin-left: 0px;
+        grid-area: sami;
+        display: grid;
+        place-items: center;
+        grid-template-areas:'shvidi'
+                            'tormeti'
+                            'cameti';
+        row-gap: 10px;
+    }
+    .Piccollo {
+        margin-left: 0px;
+        grid-area: otxi;
+        display: grid;
+        place-items: center;
+        grid-template-areas:'rva'
+                            'totxmeti'
+                            'txutmeti';
+                            row-gap: 10px;
+    }
+    .Danche {
+        margin-left: 0px;
+        grid-area: xuti;
+        display: grid;
+        place-items: center;
+        grid-template-areas:'cxra'
+                            'teqvsmeti'
+                            'chvidmeti';
+                            row-gap: 10px;
+    }
+    .beg1 {
+        grid-area: exvsi;
+        background-image: url(/assets/p-1/packetsrc/GranEspreso.svg);
+        width: 200.29px;
+        height: 151px;
+    }
+    .beg2 {
+        grid-area:shvidi ;
+        background-image: url(/assets/p-1/packetsrc/Planalto.svg);
+        width: 200.29px;
+        height: 151px;
+    }
+    .beg3 {
+        grid-area: rva;
+        background-image: url(/assets/p-1/packetsrc/Piccollo.svg);
+        width: 200.29px;
+        height: 151px;
+    }
+    .beg4 {
+        grid-area: cxra;
+        background-image: url(/assets/p-1/packetsrc/Danche.svg);
+        width: 200.29px;
+        height: 151px;
+    }
+    
+    .espH1 {
+        grid-area: ati;
+        color: #333D4B;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        margin-left: 0px;
+    }
+    .espH2 {
+        grid-area: tertmeti;
+        width: 282px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        text-align: center;
+        margin-top: 0px;
+    }
+    .plantoh1 {
+        grid-area: tormeti;
+        color: #333D4B;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        margin-left: 0px;
+    }
+    .plantoh2 {
+        grid-area: cameti;
+        width: 282px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center; 
+        margin-top: 0px;
+    }
+    .picoloh1 {
+        grid-area: totxmeti;
+        color: #333D4B;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        margin-left: 0px;
+    }
+    .picoloh2 {
+        grid-area:txutmeti ;
+        width: 282px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        text-align: center;
+        margin-top: 0px;
+    }
+    .dancheh1 {
+        grid-area:teqvsmeti ;
+        color: #333D4B;
+        font-family: Fraunces ;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .dancheh2 {
+        grid-area: chvidmeti;
+        width: 282px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        text-align: center;
+        margin-top: 0px;
+    }
+}
+

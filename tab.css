@@ -1,0 +1,225 @@
+@media (max-width:1440px){ /*tableti*/
+    .navbar {
+        gap: 230px;
+    }
+    .hdc{
+        background-image: url(/assets/p-1/tab.svg);
+        width: 689px;
+        height: 500px;
+    }
+    .hdch1 {
+        width: 350px;
+        color: #FEFCF7;
+        font-family: Fraunces ;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px; 
+        margin-left: -250px;
+        margin-top: 70px;
+    }
+    .hdch2 {
+        width: 398px;
+        color: #FEFCF7;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: -200px;
+        margin-top: -80px;
+    }
+    .hdcbut {
+        width: 217px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #0E8784;
+        margin-left: -380px;
+        margin-top: -100px;
+    }
+    .hdcspan {
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px; 
+    }
+    .packetBox {
+        display: grid;
+        place-items: center;
+        margin-top: 120px;
+        grid-template-areas:'erti'
+                            'ori'
+                            'sami'
+                            'otxi'
+                            'xuti';
+        row-gap: 50px;
+        margin-left: 0px;
+    }
+    .pbh1 {
+        grid-area: erti;
+        opacity: 0.5032;
+        width: 689px;
+        height: 118px;
+        color: #83888F;
+        text-align: center;
+        font-family: Fraunces ;
+        font-size: 110px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px; 
+        z-index: 0;
+    }
+    .granEspreso {
+        z-index: 1;
+        margin-top: -120px;
+        grid-area: ori;
+        display: grid;
+        place-items: center;
+        grid-template-areas:'exvsi ati'
+                            'exvsi tertmeti';
+    }
+    .Planto {
+        grid-area: sami;
+        display: grid;
+        place-items: center;
+        grid-template-areas:'shvidi tormeti'
+                            'shvidi cameti';
+    }
+    .Piccollo {
+        grid-area: otxi;
+        display: grid;
+        place-items: center;
+        grid-template-areas:'rva totxmeti'
+                            'rva txutmeti';
+    }
+    .Danche {
+        margin-top: 0px;
+        grid-area: xuti;
+        display: grid;
+        place-items: center;
+        grid-template-areas:'cxra teqvsmeti'
+                            'cxra chvidmeti';
+    }
+    .beg1 {
+        grid-area: exvsi;
+        background-image: url(/assets/p-1/packetsrc/grandespresotab.svg);
+        background-repeat: no-repeat;
+        width: 256px;
+        height: 193px;
+    }
+    .beg2 {
+        grid-area:shvidi ;
+        background-image: url(/assets/p-1/packetsrc/plantotap.svg);
+        background-repeat: no-repeat;
+        width: 256px;
+        height: 193px;
+    }
+    .beg3 {
+        grid-area: rva;
+        background-image: url(/assets/p-1/packetsrc/piccollotap.svg);
+        background-repeat: no-repeat;
+        width: 256px;
+        height: 193px;
+    }
+    .beg4 {
+        grid-area: cxra;
+        background-image: url(/assets/p-1/packetsrc/danchetab.svg);
+        background-repeat: no-repeat;
+        width: 256px;
+        height: 193px;
+    }
+    
+    .espH1 {
+        grid-area: ati;
+        color: #333D4B;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-left: -137px;
+    }
+    .espH2 {
+        text-align: start;
+        margin-left: 0px;
+        grid-area: tertmeti;
+        width: 282px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        margin-top: -70px;
+    }
+    .plantoh1 {
+        grid-area: tormeti;
+        color: #333D4B;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        margin-left: -200px;
+    }
+    .plantoh2 {
+        text-align: start;
+        grid-area: cameti;
+        width: 282px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: -70px;
+    }
+    .picoloh1 {
+        grid-area: totxmeti;
+        color: #333D4B;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        margin-left: -200px;
+    }
+    .picoloh2 {
+        text-align: start;
+        grid-area:txutmeti ;
+        width: 282px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        margin-top: -70px;
+    }
+    .dancheh1 {
+        grid-area:teqvsmeti ;
+        color: #333D4B;
+        font-family: Fraunces ;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        margin-left: -200px;
+    }
+    .dancheh2 {
+        text-align: start;
+        grid-area: chvidmeti;
+        width: 282px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        margin-top: -70px;
+    }
+}
