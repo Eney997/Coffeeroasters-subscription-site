@@ -132,7 +132,6 @@
         width: 256px;
         height: 193px;
     }
-    
     .espH1 {
         grid-area: ati;
         color: #333D4B;
@@ -222,10 +221,6 @@
         line-height: 25px; 
         margin-top: -70px;
     }
-
-
-
-
     .BoxinsideBox {
         display: grid;
         place-items: center;

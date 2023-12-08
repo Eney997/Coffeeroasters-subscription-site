@@ -278,10 +278,6 @@ a {
     margin-top: 0px;
     margin-left: 0px;
 }
-
-
-
-
 .BoxinsideBox {
     display: grid;
     place-items: center;
@@ -321,10 +317,8 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
-    
 }
 .firstGreenbox {
-    
     margin-top: -250px;
     grid-area: meore;
     display: grid;
@@ -336,7 +330,6 @@ a {
     background: #0E8784;
 }
 .seconGreenbox {
-    
     margin-top: -250px;
     grid-area: mesame;
     display: grid;
@@ -348,7 +341,6 @@ a {
     background: #0E8784;
 }
 .thirdGreenbox {
-    
     position: relative;
     margin-top: -250px;
     grid-area: meotxe;
