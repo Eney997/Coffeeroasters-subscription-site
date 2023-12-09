@@ -588,6 +588,99 @@
         font-weight: 900;
         line-height: 25px; 
     }
-    
+    footer {
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'one one one'
+        'two two two'
+        'thre thre thre'
+        'four four four'
+        'five five five';
+        width: 327px;
+        height: 346px;
+        flex-shrink: 0;
+        background: #2C343E;
+        margin-top: 120px;
+        margin-bottom: 70px;
+        margin-left: 0px;
+    }
+    .footerimg {
+        grid-area: one;
+        background-image: url(/assets/footerCoffeimg.svg);
+        background-repeat: no-repeat;
+        width: 217.846px;
+        height: 24px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .footerh1 {
+        grid-area: two;
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .footerh2 {
+        grid-area: thre;
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        margin-top: -50px;
+        cursor: pointer;
+        margin-left: 0px;
+    }
+    .footerh3 {
+        grid-area: four;
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; 
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        margin-top: -80px;
+        cursor: pointer;
+        margin-left: 0px;
+    }
+    .socials {
+        grid-area: five;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'fb twit ig';
+        column-gap: 20px;
+    }
+    #fb {
+        grid-area: fb;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #twit {
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        grid-area: twit;
+    }
+    #ig {
+        cursor: pointer;
+        font-size: 20px;
+        color: white;
+        grid-area: ig;
+    }
 }
 
