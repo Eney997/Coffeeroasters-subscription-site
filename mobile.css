@@ -709,5 +709,115 @@
     #ig:hover {
         color: purple;
     }
+    .popup.active {
+        transform: translate(-50%,-50%) scale(1);
+    }
+    .popup {
+        width: 327px;
+        height: 597px;
+        display: grid;
+        place-items: center;
+        background: #FEFCF7;
+        position: fixed;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%) scale(0);
+        transition: 200ms ease-in-out;
+        z-index: 10;
+        border-radius: 8px 8px 0px 0px;
+        outline: none;
+        border: none;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .popuph1div {
+        width: 327px;
+        height: 88px;
+        border-radius: 8px 8px 0px 0px;
+        background: #333D4B;
+        margin-left: 0px;
+        margin-top: -4px;
+    }
+    .xclick {
+        margin-left: 290px;
+        margin-top: -27px;
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+    }
+    .popuph1 {
+        color: #FFF;
+        font-family: Fraunces ;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-left: 20px;
+        margin-top: 27px;
+    }
+    .popuph2 {
+        width: 279px;
+        color: #83888F;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .popuph3 {
+        width: 279px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .popupbutton {
+        width: 279px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #0E8784;
+        border: none;
+        margin-top: 24px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+    .popupspan {
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces ;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px; 
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #blur {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #000000;
+        opacity: 0;
+        pointer-events: none;
+        transition: 200ms ease-in-out;
+        z-index: 7; 
+        margin-left: 0px;
+        margin-top: 0px;
+        }
+    #blur.active {
+        opacity: 0.5;
+        pointer-events: all;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
 }
 
