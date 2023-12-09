@@ -388,6 +388,211 @@ a {
 
 
 
+.HowItWorksDiv {
+    margin-top: 250px;
+    margin-left: -500px;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'six six six'
+    'two two two'
+    'one three four'
+    'five five five';
+    column-gap: 160px;
+}
+.HIW {
+    margin-top: -150px;
+    grid-area: six;
+    width: 327px;
+    color: #83888F;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin-left: -370px;
+}
+.circleandLine {
+    grid-area: two;
+    display: grid;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.circle1 {
+    background-image: url(/assets/p-1/burtebi.svg);
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    margin-left: 730px;
+    margin-top: -15px;
+}
+.circle2 {
+    background-image: url(/assets/p-1/burtebi.svg);
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -16px;
+}
+.circle3 {
+    background-image: url(/assets/p-1/burtebi.svg);
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    margin-top: -16px;
+}
+.line {
+    display: block;
+    background-image: url(/assets/p-1/Linedesk.svg);
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 4px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.zeroOne {
+    grid-area: one;
+    margin-top: 80px;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'erti'
+    'ori'
+    'sami';
+    gap: 24px;
+    margin-left:280px;
+}
+.ertiH1 {
+    color: #FDD6BA;
+    margin-left: -150px;
+    font-family: Fraunces;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+.ertiH2 {
+    width: 183px;
+    color: #333D4B;
+    margin-left: -50px;
+    font-family: Fraunces ;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+.ertiH3 {
+    width: 223px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.zeroTwo {
+    grid-area: three;
+    margin-top: 75px;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'erti'
+    'ori'
+    'sami';
+    gap: 24px;
+}
+.oriH1 {
+    margin-left: -150px;
+    color: #FDD6BA;
+    font-family: Fraunces ;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; 
+}
+.oriH2 {
+    width: 223px;
+    color: #333D4B;
+    font-family: Fraunces ;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+.oriH3 {
+    width: 223px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.zeroThree {
+    grid-area: four;
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'erti'
+    'ori'
+    'sami';
+    gap: 24px;
+}
+.samiH1 {
+    margin-left: -150px;
+    color: #FDD6BA;
+    font-family: Fraunces ;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; 
+}
+.samiH2 {
+    width: 183px;
+    color: #333D4B;
+    font-family: Fraunces ;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin-left: -50px;
+}
+.samiH3 {
+    width: 223px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.buttonHIW {
+    margin-top: 80px;
+    grid-area: five;
+    display: grid;
+    place-items: center;
+    margin-left: -500px;
+}
+.buttonclass {
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #0E8784;
+    border: none;
+}
+.spanclass {
+    color: #FEFCF7;
+    font-family: Fraunces;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; 
+}
+
+
+
+
 
 
 

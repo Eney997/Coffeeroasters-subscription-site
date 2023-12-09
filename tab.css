@@ -343,6 +343,7 @@
 
     .HowItWorksDiv {
         margin-top: 120px;
+        margin-left: 0px;
         display: grid;
         place-items: center;
         grid-template-areas: 'six six six'
@@ -369,6 +370,16 @@
         display: grid;
         margin-left: -200px;
         margin-top: 0px;
+    }
+    .circle1 {
+        display: none;
+        
+    }
+    .circle2 {
+        display: none;
+    }
+    .circle3 {
+        display: none;
     }
     .line {
         display: block;
