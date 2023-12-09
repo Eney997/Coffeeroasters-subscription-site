@@ -18,6 +18,12 @@ li {
 a {
     text-decoration: none;
 }
+.nav-link:hover {
+    color: rgb(0, 0, 0);
+}
+.hdcbut:hover {
+    background: #66D2CF;
+}
 .navbar {
     min-height: 90px;
     display: flex;
@@ -575,6 +581,10 @@ a {
     border-radius: 6px;
     background: #0E8784;
     border: none;
+    cursor: pointer;
+}
+.buttonclass:hover{
+    background: #66D2CF;
 }
 .spanclass {
     color: #FEFCF7;
@@ -617,6 +627,9 @@ footer {
     cursor: pointer;
     margin-top: 0px;
 }
+.footerh1:hover {
+    color: rgb(0, 0, 0);
+}
 .footerh2 {
     grid-area: thre;
     color: #83888F;
@@ -630,6 +643,9 @@ footer {
     cursor: pointer;
     margin-left: -200px;
 }
+.footerh2:hover {
+    color: rgb(0, 0, 0);
+}
 .footerh3 {
     grid-area: four;
     color: #83888F;
@@ -642,6 +658,9 @@ footer {
     text-transform: uppercase;
     cursor: pointer;
     margin-left: -300px;
+}
+.footerh3:hover {
+    color: rgb(0, 0, 0);
 }
 .socials {
     grid-area: five;
@@ -670,7 +689,15 @@ footer {
     color: white;
     grid-area: ig;
 }
-
+#fb:hover{
+    color: rgb(117, 117, 205);
+}
+#twit:hover {
+    color: aqua;
+}
+#ig:hover {
+    color: purple;
+}
 
 
 

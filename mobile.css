@@ -38,11 +38,17 @@
         font-weight: 900;
         line-height: 32px;
     }
+    .nav-link:hover {
+        color: rgb(0, 0, 0);
+    }
     .hdc{
         background-image: url(/assets/p-1/MOb-cofferhd.svg);
         width: 327px;
         height: 500px;
         margin-top: -13px;
+    }
+    .hdcbut:hover {
+        background: #66D2CF;
     }
     .hdch1 {
         width: 279px;
@@ -402,7 +408,6 @@
         line-height: 32px;
         margin-top: -120px;
         margin-left: 0px;
-
     }
     .circleandLine {
         grid-area: two;
@@ -578,6 +583,10 @@
         border-radius: 6px;
         background: #0E8784;
         border: none;
+        cursor: pointer;
+    }
+    .buttonclass:hover{
+        background: #66D2CF;
     }
     .spanclass {
         color: #FEFCF7;
@@ -627,6 +636,9 @@
         margin-left: 0px;
         margin-top: 0px;
     }
+    .footerh1:hover {
+        color: rgb(0, 0, 0);
+    }
     .footerh2 {
         grid-area: thre;
         color: #83888F;
@@ -641,6 +653,9 @@
         cursor: pointer;
         margin-left: 0px;
     }
+    .footerh2:hover {
+        color: rgb(0, 0, 0);
+    }
     .footerh3 {
         grid-area: four;
         color: #83888F;
@@ -654,6 +669,9 @@
         margin-top: -80px;
         cursor: pointer;
         margin-left: 0px;
+    }
+    .footerh3:hover {
+        color: rgb(0, 0, 0);
     }
     .socials {
         grid-area: five;
@@ -681,6 +699,15 @@
         font-size: 20px;
         color: white;
         grid-area: ig;
+    }
+    #fb:hover{
+        color: rgb(117, 117, 205);
+    }
+    #twit:hover {
+        color: aqua;
+    }
+    #ig:hover {
+        color: purple;
     }
 }
 
