@@ -1,0 +1,208 @@
+@media (max-width:1440px){ /*tableti*/
+    .navbar {
+        gap: 230px;
+    }
+    .hdc{
+        background-image: url(/assets/p-1/tab.svg);
+        width: 689px;
+        height: 500px;
+    }
+    .nav-link:hover {
+        color: rgb(0, 0, 0);
+    }
+    .hdc2 {
+        background-image: url(/secondPage/assets/au/secondcoffe.svg);
+        background-repeat: no-repeat;
+        width: 689px;
+        height: 400px;
+        display: grid;
+        place-items: center;
+    }
+    .hdc2h1 {
+        margin-top:20px;
+        margin-left: -200px;
+        width: 398px;
+        color: #FEFCF7;
+        font-family: Fraunces ;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 28px;
+    }
+    .hdc2h2 {
+        margin-top: -200px;
+        margin-left: -200px;
+        width: 398px;
+        color: #FEFCF7;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+    }
+    .boyandletters {
+        margin-top: 144px;
+        display: grid;
+        place-items: center;
+        grid-template-areas:'erti ori'
+                            'erti sami';
+        column-gap: 100px;
+    }
+    .boyimg {
+        grid-area: erti;
+        background-image: url(/secondPage/assets/au/boytab.svg);
+        background-repeat: no-repeat;
+        width: 485px;
+        height: 606px;
+        border-radius: 80px;
+        margin-left: 10px;
+    }
+    .BALH1 {
+        grid-area: ori;
+        margin-top: -200px;
+        margin-left: -340px;
+        color: #333D4B;
+        font-family: Fraunces;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+    }
+    .BALH2 {
+        margin-top: -350px;
+        margin-left: -230px;
+        grid-area: sami;
+        width: 339px;
+        color: #333D4B;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        opacity: 0.8;
+    }
+
+    .coffewheart {
+        display: grid;
+        place-items: center;
+        margin-top: 150px;
+    }
+    .imgdiv {
+        background-image: url(/secondPage/assets/au/littlecoffewhearttab.svg);
+        background-repeat: no-repeat;
+        width: 592px;
+        height: 887px;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .h1h2box {
+        width: 688px;
+        height: 488px;
+        border-radius: 10px;
+        background: #2C343E;
+        display: grid;
+        place-items: center;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .hearth1 {
+        margin-top: 150px;
+        width: 399px;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces ;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 28px; 
+        margin-left: 0px;
+    }
+    .hearth2 {
+        margin-top: -100px;
+        margin-left: 0px;
+        width: 540px;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        opacity: 0.8;
+    }
+    .Countries {
+        display: grid;
+        place-items: center;
+        grid-template-areas:'erti erti erti'
+                            'ori sami otxi';
+        margin-top: 180px;
+     }
+     .Cuheader {
+         grid-area: erti;
+         width: 255px;
+         color: #83888F;
+         text-align: center;
+         font-family: Fraunces ;
+         font-size: 24px;
+         font-style: normal;
+         font-weight: 900;
+         line-height: 32px; 
+         margin-top: -150px;
+         margin-left: -500px;
+     }
+     .div4everyoneinbox {
+        grid-area: ori;
+        margin-left: 0px;
+        margin-top: 0px;
+     }
+     .div4everyoneinbox2 {
+        grid-area: sami;
+        margin-left: 0px;
+        margin-top: 0px;
+     }
+     .div4everyoneinbox3 {
+        grid-area: otxi;
+        margin-left: 0px;
+        margin-top: 0px;
+     }
+     .countrieimg {
+         background-image: url(/secondPage/assets/au/UK.svg);
+         background-repeat: no-repeat;
+         width: 40.842px;
+         height: 49.072px;
+     }
+     .countrieimg2 {
+         background-image: url(/secondPage/assets/au/CANADA.svg);
+         background-repeat: no-repeat;
+         width: 51.559px;
+         height: 49.956px;
+         flex-shrink: 0;
+     }
+     .countrieimg3 {
+         background-image: url(/secondPage/assets/au/AU.svg);
+         background-repeat: no-repeat;
+         width: 48.968px;
+         height: 43.94px;
+         flex-shrink: 0;
+     }
+     .countiename {
+         width: 223px;
+         color: #333D4B;
+         font-family: Fraunces;
+         font-size: 28px;
+         font-style: normal;
+         font-weight: 900;
+         line-height: 36px;
+         margin-top: 20px;
+     }
+     .infoCT {
+         width: 223px;
+         color: #333D4B;
+         font-family: Barlow;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 26px;
+     }
+}

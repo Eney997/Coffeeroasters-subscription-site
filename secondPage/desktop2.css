@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap');
+* {  /*desktopi*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', 'Fraunces';
+}
+body {
+    background: #FEFCF7;
+}
+.container {
+    display: grid;
+    place-items: center;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: rgb(0, 0, 0);
+}
+.hdcbut:hover {
+    background: #66D2CF;
+}
+.navbar {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 800px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.nav-link {
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; 
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+.hdc2 {
+    background-image: url(/secondPage/assets/au/thirdcoffe.svg);
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 450px;
+    display: grid;
+    place-items: center;
+}
+.hdc2h1 {
+    margin-top:20px;
+    margin-left: -800px;
+    width: 398px;
+    color: #FEFCF7;
+    font-family: Fraunces ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+.hdc2h2 {
+    margin-top: -200px;
+    margin-left: -800px;
+    width: 398px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.boyandletters {
+    margin-top: 144px;
+    display: grid;
+    place-items: center;
+    grid-template-areas:'erti ori'
+                        'erti sami';
+    column-gap: 100px;
+}
+.boyimg {
+    grid-area: erti;
+    background-image: url(/secondPage/assets/au/boydesk.svg);
+    background-repeat: no-repeat;
+    width: 485px;
+    height: 606px;
+    border-radius: 80px;
+    margin-left: 10px;
+}
+.BALH1 {
+    grid-area: ori;
+    margin-top: -100px;
+    margin-left: -250px;
+    color: #333D4B;
+    font-family: Fraunces;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+.BALH2 {
+    margin-top: -400px;
+    margin-left: -;
+    grid-area: sami;
+    width: 540px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    opacity: 0.8;
+}
+
+.coffewheart {
+    display: grid;
+    place-items: center;
+    margin-top: 150px;
+}
+.imgdiv {
+    background-image: url(/secondPage/assets/au/littlecoffewheartdesk.svg);
+    background-repeat: no-repeat;
+    width: 445px;
+    height: 474px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 600px;
+}
+.h1h2box {
+    width: 1280px;
+    height: 474px;
+    border-radius: 10px;
+    background: #2C343E;
+    display: grid;
+    place-items: center;
+}
+.hearth1 {
+    margin-left: -645px;
+    width: 499px;
+    color: #FEFCF7;
+    font-family: Fraunces ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; 
+}
+.hearth2 {
+    margin-top: -240px;
+    margin-left: -600px;
+    width: 540px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    opacity: 0.8;
+}
+.Countries {
+    display: grid;
+    place-items: center;
+    grid-template-areas:'erti erti erti'
+                        'ori sami otxi';
+    margin-top: 180px;
+ }
+ .Cuheader {
+     grid-area: erti;
+     width: 255px;
+     color: #83888F;
+     text-align: center;
+     font-family: Fraunces ;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 32px; 
+     margin-top: -150px;
+     margin-left: -900px;
+ }
+ .div4everyoneinbox {
+    grid-area: ori;
+    margin-left: -100px;
+ }
+ .div4everyoneinbox2 {
+    grid-area: sami;
+    margin-left: 100px;
+ }
+ .div4everyoneinbox3 {
+    grid-area: otxi;
+    margin-left: 90px;
+ }
+ .countrieimg {
+     background-image: url(/secondPage/assets/au/UK.svg);
+     background-repeat: no-repeat;
+     width: 40.842px;
+     height: 49.072px;
+ }
+ .countrieimg2 {
+     background-image: url(/secondPage/assets/au/CANADA.svg);
+     background-repeat: no-repeat;
+     width: 51.559px;
+     height: 49.956px;
+     flex-shrink: 0;
+ }
+ .countrieimg3 {
+     background-image: url(/secondPage/assets/au/AU.svg);
+     background-repeat: no-repeat;
+     width: 48.968px;
+     height: 43.94px;
+     flex-shrink: 0;
+ }
+ .countiename {
+     width: 263px;
+     color: #333D4B;
+     font-family: Fraunces;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 36px;
+     margin-top: 20px;
+ }
+ .infoCT {
+     width: 223px;
+     color: #333D4B;
+     font-family: Barlow;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px;
+ }
