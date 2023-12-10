@@ -133,9 +133,9 @@ a {
     width: 445px;
     height: 474px;
     border-radius: 10px;
-    position: absolute;
-    margin-top: -200px;
+    margin-top: -120px;
     margin-left: 600px;
+    z-index: 1;
 }
 .h1h2box {
     width: 1280px;
@@ -144,6 +144,8 @@ a {
     background: #2C343E;
     display: grid;
     place-items: center;
+    margin-top: -350px;
+    z-index: 0;
 }
 .hearth1 {
     margin-left: -645px;

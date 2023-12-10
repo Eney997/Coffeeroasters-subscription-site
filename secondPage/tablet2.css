@@ -92,18 +92,19 @@
         background-repeat: no-repeat;
         width: 592px;
         height: 887px;
-        position: absolute;
-        margin-top: 50px;
-        margin-left: 0px;
+        margin-top: -150px;
+        margin-left: 20px;
+        z-index: 1;
     }
     .h1h2box {
+        z-index: 0;
         width: 688px;
         height: 488px;
         border-radius: 10px;
         background: #2C343E;
         display: grid;
         place-items: center;
-        margin-top: 0px;
+        margin-top: -1000px;
         margin-left: 0px;
     }
     .hearth1 {
@@ -136,7 +137,7 @@
         place-items: center;
         grid-template-areas:'erti erti erti'
                             'ori sami otxi';
-        margin-top: 180px;
+        margin-top: -100px;
      }
      .Cuheader {
          grid-area: erti;
