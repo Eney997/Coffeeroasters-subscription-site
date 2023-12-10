@@ -138,8 +138,11 @@
         position: absolute;
         margin-top: -500px;
         margin-left: 0px;
+        z-index: 1;
     }
     .h1h2box {
+        z-index: 0;
+        position: relative;
         width: 327px;
         height: 509px;
         border-radius: 10px;
