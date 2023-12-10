@@ -112,7 +112,6 @@ a {
 }
 .BALH2 {
     margin-top: -400px;
-    margin-left: -;
     grid-area: sami;
     width: 540px;
     color: #333D4B;
@@ -123,7 +122,6 @@ a {
     line-height: 25px; 
     opacity: 0.8;
 }
-
 .coffewheart {
     display: grid;
     place-items: center;
@@ -240,3 +238,107 @@ a {
      font-weight: 400;
      line-height: 26px;
  }
+ footer {
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'one two thre four five';
+    width: 1280px;
+    height: 120px;
+    flex-shrink: 0;
+    background: #2C343E;
+    margin-top: 120px;
+    margin-bottom: 70px;
+    margin-left: 0px;
+}
+.footerimg {
+    grid-area: one;
+    background-image: url(/assets/footerCoffeimg.svg);
+    background-repeat: no-repeat;
+    width: 217.846px;
+    height: 24px;
+    margin-left: 0px;
+}
+.footerh1 {
+    grid-area: two;
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 0px;
+}
+.footerh1:hover {
+    color: rgb(0, 0, 0);
+}
+.footerh2 {
+    grid-area: thre;
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: -200px;
+}
+.footerh2:hover {
+    color: rgb(0, 0, 0);
+}
+.footerh3 {
+    grid-area: four;
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; 
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: -300px;
+}
+.footerh3:hover {
+    color: rgb(0, 0, 0);
+}
+.socials {
+    grid-area: five;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'fb twit ig';
+    column-gap: 30px;
+}
+#fb {
+    grid-area: fb;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#twit {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    grid-area: twit;
+}
+#ig {
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    grid-area: ig;
+}
+#fb:hover{
+    color: rgb(117, 117, 205);
+}
+#twit:hover {
+    color: aqua;
+}
+#ig:hover {
+    color: purple;
+}
