@@ -1,0 +1,211 @@
+@media (max-width:1440px){ /*tableti*/
+    .navbar {
+        gap: 230px;
+    }
+    .hdc{
+        background-image: url(/assets/p-1/tab.svg);
+        width: 689px;
+        height: 500px;
+    }
+    .nav-link:hover {
+        color: rgb(0, 0, 0);
+    }
+    .hdc23 {
+        background-image: url(/cthirdPage/assets/mesameCOffewhearheadertab.svg);
+        background-repeat: no-repeat;
+        width: 689px;
+        height: 400px;
+        display: grid;
+        place-items: center;
+    }
+    .hdc2h13 {
+        margin-top: 0px;
+        margin-left: -320px;
+        color: #FEFCF7;
+        font-family: Fraunces ;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+    }
+    .hdc2h23 {
+        margin-left: -200px;
+        margin-top: -200px;
+        width: 398px;
+        color: #FEFCF7;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.8;
+    }
+    .HowItWorksDiv2 {
+        width: 768px;
+        height: 640px;
+        border-radius: 10px;
+        background-color: #333D4B;
+        margin-top: 120px;
+        margin-left: 0px;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'six six six'
+        'two two two'
+        'one three four'
+        'five five five';
+        column-gap: 20px;
+    }
+    .HIW2 {
+        margin-top: -100px;
+        grid-area: six;
+        width: 327px;
+        color: #83888F;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-left: -370px;
+    }
+    .circleandLine2 {
+        grid-area: two;
+        display: grid;
+        margin-left: -200px;
+        margin-top: 0px;
+    }
+    .circle12 {
+        display: none;
+        
+    }
+    .circle22 {
+        display: none;
+    }
+    .circle32 {
+        display: none;
+    }
+    .line2 {
+        display: block;
+        background-image: url(/assets/p-1/lineandcircle.svg);
+        background-repeat: no-repeat;
+        width: 497px;
+        height: 31px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .zeroOne2 {
+        grid-area: one;
+        margin-top: 0px;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'erti'
+        'ori'
+        'sami';
+        gap: 24px;
+        margin-left: 30px;
+    }
+    .ertiH12 {
+        color: #FDD6BA;
+        margin-left: -150px;
+        font-family: Fraunces;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+    }
+    .ertiH22 {
+        width: 183px;
+        color: #FFF;
+        margin-left: -50px;
+        font-family: Fraunces ;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+    .ertiH32 {
+        width: 223px;
+        color: #FFF;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .zeroTwo2 {
+        grid-area: three;
+        margin-top: 0px;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'erti'
+        'ori'
+        'sami';
+        gap: 24px;
+        margin-left: 0px;
+    }
+    .oriH12 {
+        margin-left: -150px;
+        color: #FDD6BA;
+        font-family: Fraunces ;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px; 
+    }
+    .oriH22 {
+        width: 223px;
+        color: #FFF;
+        font-family: Fraunces ;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+    .oriH32 {
+        width: 223px;
+        color: #FFF;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .zeroThree2 {
+        grid-area: four;
+        margin-top: -25px;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'erti'
+        'ori'
+        'sami';
+        gap: 24px;
+        margin-left: 0px;
+    }
+    .samiH12 {
+        margin-left: -150px;
+        color: #FDD6BA;
+        font-family: Fraunces ;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px; 
+    }
+    .samiH22 {
+        width: 183px;
+        color: #FFF;
+        font-family: Fraunces ;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-left: -50px;
+    }
+    .samiH32 {
+        width: 223px;
+        color: #FFF;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+}

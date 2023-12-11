@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap');
+* {  /*desktopi*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', 'Fraunces';
+}
+body {
+    background: #FEFCF7;
+}
+.container {
+    display: grid;
+    place-items: center;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: rgb(0, 0, 0);
+}
+.hdcbut:hover {
+    background: #66D2CF;
+}
+.navbar {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 800px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.nav-link {
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; 
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+.hdc23 {
+    background-image: url(/cthirdPage/assets/mesameCOffewhearheaderdesk.svg);
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 450px;
+    display: grid;
+    place-items: center;
+}
+.hdc2h13 {
+    margin-top: 0px;
+    margin-left: -750px;
+    color: #FEFCF7;
+    font-family: Fraunces ;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; 
+}
+.hdc2h23 {
+    margin-left: -700px;
+    margin-top: -200px;
+    width: 445px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.HowItWorksDiv2 {
+    width: 1280px;
+    height: 653px;
+    border-radius: 10px;
+    background-color: #333D4B;
+    margin-top: 250px;
+    margin-left: 0px;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'six six six'
+    'two two two'
+    'one three four'
+    'five five five';
+    column-gap: 0px;
+}
+.HIW2 {
+    margin-top: -150px;
+    grid-area: six;
+    width: 327px;
+    color: #83888F;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin-left: -640px;
+}
+.circleandLine2 {
+    grid-area: two;
+    display: grid;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.circle12 {
+    background-image: url(/assets/p-1/burtebi.svg);
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    margin-left: -250px;
+    margin-top: -15px;
+}
+.circle22 {
+    background-image: url(/assets/p-1/burtebi.svg);
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -16px;
+}
+.circle32 {
+    background-image: url(/assets/p-1/burtebi.svg);
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -16px;
+}
+.line2 {
+    display: block;
+    background-image: url(/assets/p-1/Linedesk.svg);
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 4px;
+    margin-left: -250px;
+    margin-top: 0px;
+}
+.zeroOne2 {
+    grid-area: one;
+    margin-top: 80px;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'erti'
+    'ori'
+    'sami';
+    gap: 24px;
+    margin-left:20px;
+}
+.ertiH12 {
+    color: #FDD6BA;
+    margin-left: -150px;
+    font-family: Fraunces;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+.ertiH22 {
+    width: 183px;
+    color: #fff;
+    margin-left: -50px;
+    font-family: Fraunces ;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+.ertiH32 {
+    width: 223px;
+    color: #fff;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.zeroTwo2 {
+    grid-area: three;
+    margin-left: -150px;
+    margin-top: 75px;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'erti'
+    'ori'
+    'sami';
+    gap: 24px;
+}
+.oriH12 {
+    margin-left: -150px;
+    color: #FDD6BA;
+    font-family: Fraunces ;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; 
+}
+.oriH22 {
+    width: 223px;
+    color: #fff;
+    font-family: Fraunces ;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+.oriH32 {
+    width: 223px;
+    color: #fff;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.zeroThree2 {
+    grid-area: four;
+    margin-left: -100px;
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'erti'
+    'ori'
+    'sami';
+    gap: 24px;
+}
+.samiH12 {
+    margin-left: -150px;
+    color: #FDD6BA;
+    font-family: Fraunces ;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; 
+}
+.samiH22 {
+    width: 183px;
+    color: #fff;
+    font-family: Fraunces ;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin-left: -50px;
+}
+.samiH32 {
+    width: 223px;
+    color: #fff;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}

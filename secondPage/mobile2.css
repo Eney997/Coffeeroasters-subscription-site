@@ -313,8 +313,8 @@
         letter-spacing: 0.923px;
         text-transform: uppercase;
         cursor: pointer;
-        margin-left: 128px;
-        margin-top: 0px;
+        margin-left: 115px;
+        margin-top: -60px;
     }
     .footerh1:hover {
         color: rgb(0, 0, 0);
@@ -329,9 +329,9 @@
         line-height: 15px;
         letter-spacing: 0.923px;
         text-transform: uppercase;
-        margin-top: -50px;
         cursor: pointer;
-        margin-left: 0px;
+        margin-top: 0px;
+        margin-left: -106px;
     }
     .footerh2:hover {
         color: rgb(0, 0, 0);
@@ -346,9 +346,9 @@
         line-height: 15px; 
         letter-spacing: 0.923px;
         text-transform: uppercase;
-        margin-top: -80px;
+        margin-top: 120px;
         cursor: pointer;
-        margin-left: 0px;
+        margin-left: -194px;
     }
     .footerh3:hover {
         color: rgb(0, 0, 0);

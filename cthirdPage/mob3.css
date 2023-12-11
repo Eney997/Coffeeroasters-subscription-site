@@ -1,0 +1,272 @@
+@media (max-width:768px){ /*mobile*/
+    .navbar {
+        gap: 140px;
+    }
+    body.no-scroll {
+        overflow: hidden;
+    }
+    .hamburger {
+        display: block;
+        z-index: 8;
+    }
+    .headercoffe {
+        z-index:8;
+    }
+    .nav-menu {
+        justify-content: center;
+        background-image: url(/assets/bibc.svg),url(/assets/burgerBackground.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover,auto;
+        width: 100%;
+        height: 577px;
+        position: fixed;
+        left: -100%;
+        top: 0px;
+        gap:0;
+        flex-direction: column;
+        overflow: hidden;
+        z-index: 7;
+    }
+    .nav-item {
+       margin-top: -120px;
+       overflow: hidden;
+    }
+    .nav-menu.active {
+        overflow: hidden;
+        left:0;
+    }
+    .nav-link {
+        color: #333D4B;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+    .nav-link:hover {
+        color: rgb(0, 0, 0);
+    }
+    .hdc23 {
+        background-image: url(/cthirdPage/assets/mesameCOffewhearheader.svg);
+        background-repeat: no-repeat;
+        width: 327px;
+        height: 400px;
+        display: grid;
+        place-items: center;
+    }
+    .hdc2h13 {
+        margin-top: 0px;
+        margin-left: 0px;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces ;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        z-index: 0;
+    }
+    .hdc2h23 {
+        margin-left: 0px;
+        margin-top: -200px;
+        width: 279px;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        opacity: 0.8;
+        z-index: 0;
+    }
+    .HowItWorksDiv2 {
+        width: 100%;
+        height: 1028px;
+        border-radius: 10px;
+        background-color: #333D4B;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'six'
+        'one'
+        'two'
+        'three'
+        'four'
+        'five';
+        margin-top: 220px;
+    }
+    .HIW2 {
+        grid-area: six;
+        width: 327px;
+        color: #83888F;
+        text-align: center;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-top: -120px;
+        margin-left: 0px;
+    }
+    .circleandLine2 {
+        grid-area: two;
+        display: grid;
+        place-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .circle12 {
+        display: none;
+    }
+    .circle22 {
+        display: none;
+    }
+    .circle32 {
+        display: none;
+    }
+    .line2 {
+        display: none;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .zeroOne2 {
+        grid-area: one;
+        margin-top: 80px;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'erti'
+        'ori'
+        'sami';
+        gap: 24px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .ertiH12 {
+        color: #FDD6BA;
+        text-align: center;
+        font-family: Fraunces;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .ertiH22 {
+        width: 327px;
+        color: #FFF;
+        text-align: center;
+        font-family: Fraunces ;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .ertiH32 {
+        width: 327px;
+        color: #FFF;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .zeroTwo2 {
+        grid-area: three;
+        margin-top: 50px;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'erti'
+        'ori'
+        'sami';
+        gap: 24px;
+        margin-left: 0px;
+    }
+    .oriH12 {
+        color: #FDD6BA;
+        text-align: center;
+        font-family: Fraunces ;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .oriH22 {
+        width: 327px;
+        color: #FFF;
+        text-align: center;
+        font-family: Fraunces ;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .oriH32 {
+        width: 327px;
+        color: #FFF;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .zeroThree2 {
+        grid-area: four;
+        margin-top: 50px;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'erti'
+        'ori'
+        'sami';
+        gap: 24px;
+        margin-left: 0px;
+    }
+    .samiH12 {
+        color: #FDD6BA;
+        text-align: center;
+        font-family: Fraunces ;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px; 
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .samiH22 {
+        width: 327px;
+        color: #FFF;
+        text-align: center;
+        font-family: Fraunces;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .samiH32 {
+        width: 327px;
+        color: #FFF;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
