@@ -46,21 +46,21 @@
         place-items: center;
         grid-template-areas:'erti ori'
                             'erti sami';
-        column-gap: 100px;
+        column-gap: 70px;
     }
     .boyimg {
         grid-area: erti;
         background-image: url(/secondPage/assets/au/boytab.svg);
         background-repeat: no-repeat;
-        width: 485px;
-        height: 606px;
-        border-radius: 80px;
-        margin-left: 10px;
+        width: 281px;
+        height: 470px;
+        border-radius: 8px;
+        margin-left: 20px;
     }
     .BALH1 {
         grid-area: ori;
-        margin-top: -200px;
-        margin-left: -340px;
+        margin-top: 0px;
+        margin-left: 0px;
         color: #333D4B;
         font-family: Fraunces;
         font-size: 32px;
@@ -69,8 +69,8 @@
         line-height: 48px;
     }
     .BALH2 {
-        margin-top: -350px;
-        margin-left: -230px;
+        margin-top: 0px;
+        margin-left: 0px;
         grid-area: sami;
         width: 339px;
         color: #333D4B;
@@ -85,7 +85,7 @@
     .coffewheart {
         display: grid;
         place-items: center;
-        margin-top: 150px;
+        margin-top: 250px;
     }
     .imgdiv {
         background-image: url(/secondPage/assets/au/littlecoffewhearttab.svg);

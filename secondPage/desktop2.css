@@ -94,15 +94,13 @@ a {
     grid-area: erti;
     background-image: url(/secondPage/assets/au/boydesk.svg);
     background-repeat: no-repeat;
-    width: 485px;
-    height: 606px;
-    border-radius: 80px;
+    width: 445px;
+    height: 520px;
+    border-radius: 8px;
     margin-left: 10px;
 }
 .BALH1 {
     grid-area: ori;
-    margin-top: -100px;
-    margin-left: -250px;
     color: #333D4B;
     font-family: Fraunces;
     font-size: 40px;
@@ -111,7 +109,7 @@ a {
     line-height: 48px;
 }
 .BALH2 {
-    margin-top: -400px;
+    margin-top: -200px;
     grid-area: sami;
     width: 540px;
     color: #333D4B;
