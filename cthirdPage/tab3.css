@@ -45,7 +45,7 @@
         height: 640px;
         border-radius: 10px;
         background-color: #333D4B;
-        margin-top: 120px;
+        margin-top: 130px;
         margin-left: 0px;
         display: grid;
         place-items: center;
@@ -56,7 +56,7 @@
         column-gap: 20px;
     }
     .HIW2 {
-        margin-top: -100px;
+        margin-top: -150px;
         grid-area: six;
         width: 327px;
         color: #83888F;
@@ -207,5 +207,8 @@
         font-style: normal;
         font-weight: 400;
         line-height: 25px;
+    }
+    .sarchevi {
+        display: none;
     }
 }

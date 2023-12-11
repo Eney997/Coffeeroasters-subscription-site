@@ -24,3 +24,5 @@ barIcon.onclick = function(){
         barIcon.src= "/assets/BurgerMenuIcon.svg"
     }
 }
+
+
