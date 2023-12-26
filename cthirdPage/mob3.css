@@ -269,4 +269,151 @@
         margin-left: 0px;
         margin-top: 0px;
     }
+    .BB9 {
+        margin-top: 114px;
+        width: 328px;
+        height: 338px;
+        border-radius: 10px;
+        background: #2C343E;
+    }
+    .BB9h1 {
+        width: 172px;
+        color: #FFF;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+        text-transform: uppercase;
+        opacity: 0.5037;
+        margin-top: 37px;
+        margin-left:25px ;
+    }
+    .BB9h2 {
+        width: 279px;
+        color: #FFF;
+        font-family: Fraunces 9pt;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px; 
+        margin-top: 10px;
+        margin-left:25px ;
+        display: grid;
+        place-items: center;
+    }
+    footer {
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'one one one'
+        'two two two'
+        'thre thre thre'
+        'four four four'
+        'five five five';
+        width: 327px;
+        height: 346px;
+        flex-shrink: 0;
+        background: #2C343E;
+        margin-top: 120px;
+        margin-bottom: 70px;
+        margin-left: 0px;
+    }
+    .footerimg {
+        grid-area: one;
+        background-image: url(/assets/footerCoffeimg.svg);
+        background-repeat: no-repeat;
+        width: 217.846px;
+        height: 24px;
+        margin-top: -40px;
+        margin-left: 40px;
+    }
+    .footerh1 {
+        grid-area: two;
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-left: -150px;
+        margin-top: 70px;
+    }
+    .footerh1:hover {
+        color: rgb(0, 0, 0);
+    }
+    .footerh2 {
+        grid-area: thre;
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        margin-top: 70px;
+        cursor: pointer;
+        margin-top: 135px;
+        margin-left: -185px;
+    }
+    .footerh2:hover {
+        color: rgb(0, 0, 0);
+    }
+    .footerh3 {
+        grid-area: four;
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; 
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        margin-top: 0px;
+        cursor: pointer;
+        margin-left: 50px;
+    }
+    .footerh3:hover {
+        color: rgb(0, 0, 0);
+    }
+    .socials {
+        grid-area: five;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'fb twit ig';
+        column-gap: 20px;
+        margin-bottom: 50px;
+    }
+    #fb {
+        grid-area: fb;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #twit {
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        grid-area: twit;
+    }
+    #ig {
+        cursor: pointer;
+        font-size: 20px;
+        color: white;
+        grid-area: ig;
+    }
+    #fb:hover{
+        color: rgb(117, 117, 205);
+    }
+    #twit:hover {
+        color: aqua;
+    }
+    #ig:hover {
+        color: purple;
+    }
 }

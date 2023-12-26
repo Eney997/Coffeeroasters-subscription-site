@@ -211,4 +211,146 @@
     .sarchevi {
         display: none;
     }
+    .BB9 {
+        margin-top: 114px;
+        width: 689px;
+        height: 208px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #2C343E;
+    }
+    .BB9h1 {
+        width: 172px;
+        color: #FFF;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+        text-transform: uppercase;
+        margin-left:44px ;
+        margin-top: 31px;
+    }
+    .BB9h2 {
+        margin-left:44px ;
+        margin-top: 10px;
+        width: 602px;
+        color: #FFF;
+        font-family: Fraunces 9pt;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px; /* 166.667% */
+    }
+    footer {
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'one one one'
+        'two thre four'
+        'five five five';
+        width: 688px;
+        height: 270px;
+        flex-shrink: 0;
+        background: #2C343E;
+        margin-top: 120px;
+        margin-bottom: 70px;
+        margin-left: 0px;
+    }
+    .footerimg {
+        grid-area: one;
+        background-image: url(/assets/footerCoffeimg.svg);
+        background-repeat: no-repeat;
+        width: 217.846px;
+        height: 24px;
+        margin-top: -20px;
+        margin-left: 100px;
+    }
+    .footerh1 {
+        grid-area: two;
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-left: -400px;
+        margin-top: 130px;
+    }
+    .footerh1:hover {
+        color: rgb(0, 0, 0);
+    }
+    .footerh2 {
+        grid-area: thre;
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-left: -380px;
+        margin-top: 130px;
+    }
+    .footerh2:hover {
+        color: rgb(0, 0, 0);
+    }
+    .footerh3 {
+        grid-area: four;
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; 
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-left: 350px;
+        margin-top: -34px;
+    }
+    .footerh3:hover {
+        color: rgb(0, 0, 0);
+    }
+    .socials {
+        grid-area: five;
+        display: grid;
+        place-items: center;
+        grid-template-areas: 'fb twit ig';
+        column-gap: 30px;
+        margin-bottom: 50px;
+    }
+    #fb {
+        grid-area: fb;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #twit {
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        grid-area: twit;
+    }
+    #ig {
+        cursor: pointer;
+        font-size: 20px;
+        color: white;
+        grid-area: ig;
+    }
+    #fb:hover{
+        color: rgb(117, 117, 205);
+    }
+    #twit:hover {
+        color: aqua;
+    }
+    #ig:hover {
+        color: purple;
+    }
 }

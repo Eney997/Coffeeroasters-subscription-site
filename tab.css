@@ -557,8 +557,8 @@
         background-repeat: no-repeat;
         width: 217.846px;
         height: 24px;
-        margin-top: 30px;
-        margin-left: 0px;
+        margin-top: -20px;
+        margin-left: 100px;
     }
     .footerh1 {
         grid-area: two;
@@ -571,8 +571,9 @@
         letter-spacing: 0.923px;
         text-transform: uppercase;
         cursor: pointer;
-        margin-left: 130px;
-        margin-top: 0px;
+        margin-left: -400px;
+        margin-top: 130px;
+        
     }
     .footerh1:hover {
         color: rgb(0, 0, 0);
@@ -588,7 +589,8 @@
         letter-spacing: 0.923px;
         text-transform: uppercase;
         cursor: pointer;
-        margin-left: -120px;
+        margin-left: -380px;
+        margin-top: 130px;
     }
     .footerh2:hover {
         color: rgb(0, 0, 0);
@@ -604,12 +606,14 @@
         letter-spacing: 0.923px;
         text-transform: uppercase;
         cursor: pointer;
-        margin-left: -180px;
+        margin-left: 350px;
+        margin-top: -40px;
     }
     .footerh3:hover {
         color: rgb(0, 0, 0);
     }
     .socials {
+        margin-bottom: 30px;
         grid-area: five;
         display: grid;
         place-items: center;
