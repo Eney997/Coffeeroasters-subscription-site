@@ -1,4 +1,4 @@
-@media (max-width:768px){ /*mobile*/
+@media (max-width:765px){ /*mobile*/
     .navbar {
         gap: 140px;
     }
