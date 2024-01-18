@@ -393,11 +393,11 @@ footer {
     grid-area: ig;
 }
 #fb:hover{
-    color: rgb(117, 117, 205);
+    color: rgb(0, 0, 0);
 }
 #twit:hover {
-    color: aqua;
+    color: rgb(0, 0, 0);
 }
 #ig:hover {
-    color: purple;
+    color: rgb(0, 0, 0);
 }
